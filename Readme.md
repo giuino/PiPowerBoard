@@ -26,6 +26,7 @@ You Raspberry should show a matrix with two numbers, 68 and 26
 If they show we're on track!
 
 Now, for the RTC config I found a very well written page I should point:
+
 https://www.raspberrypi-spy.co.uk/2015/05/adding-a-ds3231-real-time-clock-to-the-raspberry-pi/
 
 
