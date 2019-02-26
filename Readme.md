@@ -32,6 +32,7 @@ https://www.raspberrypi-spy.co.uk/2015/05/adding-a-ds3231-real-time-clock-to-the
 
 PiPowerboard Script install:
 
+
 download the script "PiPowerBoardScript.py"
 and save it in your "home/pi" folder
 
