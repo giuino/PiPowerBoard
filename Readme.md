@@ -1,22 +1,20 @@
-The Pi Power Board is a tiny add-on board for the Raspberry Pi
+The Pi Power Board is a tiny add-on board for the Raspberry Pi  
 
-It consists of a DS3231 RTC, an Attiny85, a 3A Buck converter and a fan
-It permits to power on and off the Raspberry via an extra 12v wire, let alone the 12v an GND wires
+It consists of a DS3231 RTC, an Attiny85, a 3A Buck converter and a fan  
+It permits to power on and off the Raspberry via an extra 12v wire, let alone the 12v an GND wires  
 
-it's born to ease the install of a Raspberry Pi in a car (dashboard, media player, carPc)
+it's born to ease the install of a Raspberry Pi in a car (dashboard, media player, carPc)  
 
+To install and have a fully working board we have to fulfill 4 steps:  
+Enable I2C communications  
+Check the I2C, Rtc and Attiny are working  
+Enable the Real Time Clock  
+Install the PiPowerBoardScript as an autostart script  
 
-Install:
-To install and have a fully working board we have to fulfill 4 steps:
-Enable I2C communications
-Check the I2C, Rtc and Attiny are working
-Enable the Real Time Clock
-Install the PiPowerBoardScript as an autostart script
-
-Let's start from the I2C communincations:
-Open the Menu->Preferences->Raspberry Pi Configuration
-Go to the Interfaces tab and enable I2C, "OK" and reboot
-on Reboot open a terminal and install:
+Let's start from the I2C communications:  
+Open the Menu->Preferences->Raspberry Pi Configuration  
+Go to the Interfaces tab and enable I2C, "OK" and reboot  
+on Reboot open a terminal and install:  
 sudo apt-get install -y python-smbus i2c-tools
 
 after install try (on terminal):  
